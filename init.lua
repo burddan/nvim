@@ -1,3 +1,6 @@
+-- map <leader> to space, this need to be here 
+vim.g.mapleader = ' '
+
 -- lazyvim package manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then

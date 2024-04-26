@@ -7,3 +7,6 @@ require("presence").setup({
 })
 require("nvim-web-devicons").setup()
 require("nvim-tree").setup()
+
+require('telescope').setup()
+
