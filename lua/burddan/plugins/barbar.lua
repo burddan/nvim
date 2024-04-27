@@ -3,11 +3,7 @@ return {
 	"lewis6991/gitsigns.nvim",
 	config = function()
 		local barbar = require("barbar")
-		barbar.setup({
-			opts = {
-			animation = false,
-		}
-		})
+		barbar.setup()
 	end,
 }
 
