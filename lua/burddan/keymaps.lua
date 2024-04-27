@@ -1,11 +1,6 @@
 local map = vim.keymap.set
 
 map("n", "<leader>", "<NOP>")
--- move using ctrl + h j k l
--- map("n", "<C-h>", "<C-w>h")
--- map("n", "<C-l>", "<C-w>l")
--- map("n", "<C-j>", "<C-w>j")
--- map("n", "<C-k>", "<C-w>k")
 
 -- move using leader + h j k l
 map("n", "<leader>h", "<C-w>h")
@@ -32,5 +27,3 @@ map("n", "<leader>8", "<cmd>BufferGoto 8<CR>")
 map("n", "<leader>9", "<cmd>BufferGoto 9<CR>")
 map("n", "<leader>0", "<cmd>BufferLast<CR>")
 map("n", "<leader>Q", "<cmd>BufferClose<CR>")
-
-
