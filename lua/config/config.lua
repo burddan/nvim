@@ -11,4 +11,6 @@ require("nvim-tree").setup()
 require('telescope').setup()
 require('cmp').setup()
 require('lualine').setup()
-require('barbar').setup()
+require('barbar').setup({
+	animation = false
+})
