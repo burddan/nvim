@@ -18,7 +18,6 @@ vim.opt.rtp:prepend(lazypath)
 -- import lazy and plugins
 require("lazy").setup({
 	{import = "burddan.plugins"},
-	{import = "fodase.plugins"},
 })
 
 require("burddan.config")
