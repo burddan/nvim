@@ -9,4 +9,6 @@ require("nvim-web-devicons").setup()
 require("nvim-tree").setup()
 
 require('telescope').setup()
-
+require('cmp').setup()
+require('lualine').setup()
+require('barbar').setup()
