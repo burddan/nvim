@@ -22,5 +22,3 @@ require("lazy").setup({
 
 require("burddan.config")
 require("burddan.keymaps")
-
--- maybe i will use this for set the nvim transparent
