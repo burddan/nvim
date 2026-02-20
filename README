@@ -1,0 +1,3 @@
+todo:
+  verificar se mason instalou os lsp html css js em cada host
+  instalar clangd e o outro em python em cada host
