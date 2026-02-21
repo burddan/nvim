@@ -4,6 +4,7 @@ return {
 		local presence = require("presence")
 		presence.setup({
 			neovim_image_text = "FUCK YOU VSCODE!!!",
+      main_image        = "file",
 		})
 	end,
 }

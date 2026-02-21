@@ -1,3 +1,11 @@
 todo:
   verificar se mason instalou os lsp html css js em cada host
   instalar clangd e o outro em python em cada host
+
+  instalar dap (Debug Adapter Protocol) para c++/rust e dap-ui
+
+
+  plugins interessantes de instalar:
+  https://github.com/norcalli/nvim-colorizer.lua
+  https://github.com/folke/todo-comments.nvim
+  https://github.com/lukas-reineke/indent-blankline.nvim
